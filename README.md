@@ -1,14 +1,14 @@
-Analisis Proyek REST API Mahasiswa
+**Analisis Proyek REST API Mahasiswa**
 
-1. Tujuan Proyek
+**1. Tujuan Proyek**
 
 Proyek ini dikembangkan untuk memberikan pemahaman mengenai cara
 membangun REST API menggunakan Node.js, Express, dan MySQL. API ini
 menyediakan fitur CRUD (Create, Read, Update, Delete) untuk data
 mahasiswa.
 
-2. Struktur Project
-
+**2. Struktur Project**
+```
     serverkuliah
     │
     ├── controllers
@@ -21,8 +21,8 @@ mahasiswa.
     ├── server.js       (file utama untuk menjalankan server)
     ├── package.json
     └── package-lock.json
-
-Penjelasan:
+```
+**Penjelasan:**
 
 -   server.js
     File utama untuk menjalankan Express server dan memetakan routing ke
@@ -41,7 +41,7 @@ Penjelasan:
     atau bug akibat perbedaan versi paket.
 
 
-3. Analisis Alur Kerja Program
+**3. Analisis Alur Kerja Program**
 
 a. Koneksi Database (db.js)
 
@@ -84,7 +84,7 @@ Jika index.js digunakan, server harus dijalankan terlebih dahulu:
 
     nodemon server.js
 
-4. Analisis Masalah dan Perbaikan
+**4. Analisis Masalah dan Perbaikan**
 
 Masalah yang saya temukan:
 
@@ -97,7 +97,7 @@ Masalah yang saya temukan:
     menampilkan semua data.
 
 
-5. Kesimpulan
+**5. Kesimpulan**
 
 REST API mahasiswa berhasil dibangun dengan menerapkan konsep modular,
 controller, dan koneksi database. Semua endpoint CRUD berfungsi baik.
